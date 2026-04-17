@@ -32,7 +32,14 @@ The analysis follows a standard time series workflow:
 - Forecasts indicate high uncertainty over the horizon  
 
 ---
+## Limitations
 
+- The model is univariate and relies only on past inflation values, so it does not account for external drivers such as policy changes, supply shocks, or global factors  
+- The analysis is based on data from 1992–2025, reflecting the inflation-targeting period in New Zealand, and does not capture earlier regimes or developments beyond the sample  
+- Quarterly data may not capture higher-frequency or short-term fluctuations  
+- The model provides a baseline description of inflation dynamics and does not establish causal relationships
+
+---
 ## Tools
 - R  
 - tidyverse  
